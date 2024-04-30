@@ -17,12 +17,10 @@ interface PokemonProps {
   region: {
     name: string;
   };
-  stats: [
-    {
-      base_stat: number;
-      stat: { name: string };
-    }
-  ];
+  stats: {
+    base_stat: number;
+    stat: { name: string };
+  }[];
   sprites: {
     other: {
       ["official-artwork"]: {
