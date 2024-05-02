@@ -65,7 +65,7 @@ function App() {
               rest="self-end"
             />
             <div className="flex flex-col items-center justify-center  row-span-3 ">
-              <div className="transition-all text-5xl text-white font-pixel ">
+              <div className="text-xl md:text-3xl xl:text-5xl transition-all text-white font-pixel ">
                 {pokemonData.name}
               </div>
               {pokemonData.sprites !== undefined && (
