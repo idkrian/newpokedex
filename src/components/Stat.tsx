@@ -20,7 +20,7 @@ const Stat = ({ pokemonData, icon, statNumber, justify, rest }: Props) => {
       </h1>
       <img
         src={icon}
-        className="w-8 h-8 xl:w-10 xl:h-10 text-white border-2 rounded-full border-black p-1"
+        className="w-8 h-8 xl:w-10 xl:h-10 text-white border-2 rounded-full border-black p-1 drop-shadow-xl"
       />
     </div>
   );

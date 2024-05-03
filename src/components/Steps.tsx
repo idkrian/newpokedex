@@ -10,10 +10,10 @@ const Steps = ({ pokemonNumber, setPokemonNumber }: Props) => {
   return (
     <div className="flex gap-6">
       <button onClick={() => setPokemonNumber(pokemonNumber - 1)} className="">
-        <FaAngleLeft className="text-3xl text-white" />
+        <FaAngleLeft className="text-5xl text-white" />
       </button>
       <button onClick={() => setPokemonNumber(pokemonNumber + 1)} className="">
-        <FaAngleRight className="text-3xl text-white" />
+        <FaAngleRight className="text-5xl text-white" />
       </button>
     </div>
   );
